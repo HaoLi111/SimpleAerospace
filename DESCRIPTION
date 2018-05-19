@@ -1,0 +1,11 @@
+Package: SimpleAerospace
+Type: Package
+Title: Simple Aerospace Calculations
+Version: 0.1.0
+Author: Hao Li
+Maintainer: Hao Li <LHrcplanes@qq.com>
+Description: For aerospace calculations of mathematical modelling competitions, model rocket building, history validifying
+    and education. Package include manipulation functions  for lists of concept of rocket or orbits, holmann transfer equations and some empirical estimation functions from NASA education website and some other blogs. A dynamic simulation function is being developed now to simulate the motions that cannot be simbolically solved. It stored some physical constants such as Cd of different objects as well as case functions used to simulate a vertically lauched V2 rocket(data guessed from Wikipedia). Additional tools required are coded refering to equations from L3 physics text book. Most models avoid symbolic calculations and calculous and the default solving functions uses other solving method as much as possible.
+License: GNU 3.0
+Encoding: UTF-8
+LazyData: true
